@@ -70,6 +70,8 @@ To then generate the localization package, add the following to your `main.go` o
 //go:generate go-localize -input localizations_src -output localizations
 ```
 
+If you want to include UTC timestamp for the output generation, add `-timestamp` flag.
+
 Now you'll be able to use the localization like so:
 ```go
 l := localizations.New("en", "es")
@@ -145,4 +147,6 @@ Usage of go-localize:
         input localizations folder
   -output string
         where to output the generated package
+  -timestamp
+        write creation time in generated file
 ```
