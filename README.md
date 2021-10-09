@@ -1,10 +1,10 @@
 # go-localize
 
-[![GoDoc](https://godoc.org/github.com/m1/go-localize?status.svg)](https://godoc.org/github.com/m1/go-localize)
-[![Build Status](https://travis-ci.org/m1/go-localize.svg?branch=master)](https://travis-ci.org/m1/go-localize)
-[![Go Report Card](https://goreportcard.com/badge/github.com/m1/go-localize)](https://goreportcard.com/report/github.com/m1/go-localize)
-[![Release](https://img.shields.io/github/release/m1/go-localize.svg)](https://github.com/m1/go-localize/releases/latest)
-[![codecov](https://codecov.io/gh/m1/go-localize/branch/master/graph/badge.svg)](https://codecov.io/gh/m1/go-localize)
+[![GoDoc](https://godoc.org/github.com/chekoopa/go-localize?status.svg)](https://godoc.org/github.com/chekoopa/go-localize)
+[![Build Status](https://travis-ci.org/chekoopa/go-localize.svg?branch=master)](https://travis-ci.org/chekoopa/go-localize)
+[![Go Report Card](https://goreportcard.com/badge/github.com/chekoopa/go-localize)](https://goreportcard.com/report/github.com/chekoopa/go-localize)
+[![Release](https://img.shields.io/github/release/chekoopa/go-localize.svg)](https://github.com/chekoopa/go-localize/releases/latest)
+[![codecov](https://codecov.io/gh/chekoopa/go-localize/branch/master/graph/badge.svg)](https://codecov.io/gh/chekoopa/go-localize)
 
 __Simple and easy to use i18n (Internationalization and localization) engine written in Go, used for translating locale strings. 
 Use with [go generate](#go-generate) or on the [CLI](#cli). Currently supports JSON, YAML, TOML and CSV translation files__
@@ -133,7 +133,7 @@ println(l.Get("key_doesnt_exist")) //"key_doesnt_exist" will be printed
 
 #### Translation file support
 
-We currently support JSON and YAML translation files. Please suggest
+We currently support JSON, YAML, TOML and CSV translation files. Please suggest
 missing file type using issues or pull requests.
 
 ### CLI
